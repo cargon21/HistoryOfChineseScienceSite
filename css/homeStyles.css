@@ -1,0 +1,87 @@
+@font-face {
+    font-family: nueWorld;
+    src: url(../Fonts/neueWorld/NeueWorld-CondensedRegular.otf);
+}
+
+@font-face {
+  font-family: greenhousePrune;
+  src: url(../Fonts/Greenhouse-Prune.otf)
+}
+
+body {
+  font-family: nueWorld;
+  text-align: center;
+  background-color: #F3F3F3;
+  margin:0;
+  color: #283747;
+}
+
+.heading {
+  background-image: url("../Images/headingBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6% 0 6% 0;
+  margin:none;
+}
+
+h1 {
+  font-size: 750%;
+  margin:0;
+  color: #d37155;
+}
+
+h2{
+  margin-top: 0.5%;
+  line-height: 0px;
+  font-size: 250%;
+  color: #283747;
+}
+
+.introduction {
+  font-size: 150%;
+  padding: 3% 2% 3% 2%;
+  margin: 2%;
+  text-align: left;
+}
+
+ul{
+  display:inline;
+}
+
+ul.visited {
+  display:inline;
+}
+
+li {
+  list-style-type: none;
+  font-size: 250%;
+  margin-top: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #283747;
+}
+
+a:hover {
+  color: #d37155;
+}
+
+a.visited {
+  display: inline; 
+  text-decoration: none;
+  color: #283747;
+}
+
+.explore {
+  font-size: 600%;
+  color: #d37155;
+}
+
+footer {
+  padding-top: 10%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

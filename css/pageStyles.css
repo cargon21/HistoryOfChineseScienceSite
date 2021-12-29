@@ -1,0 +1,70 @@
+@font-face {
+    font-family: nueWorld;
+    src: url(../Fonts/neueWorld/NeueWorld-CondensedRegular.otf);
+}
+
+
+h1 {
+    text-align: center;
+    color: #d37155;
+    font-size: 400%;
+    padding-bottom: 2%;
+
+}
+
+h2 {
+    font-size: 250%;
+    padding: 0;
+    margin-bottom: 0;
+    color: #283747;
+
+}
+body {
+    font-family: nueWorld;
+}
+
+.topic {
+    display: inline-block;
+    margin-bottom: 10%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: auto;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+p {
+    padding: 0 3% 0 0;
+    font-size: 130%;
+    color: #283747;
+}
+
+.home {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #283747;
+    
+  }
+  
+  a:hover {
+    color: #d37155;
+  }
+  
+  a.visited {
+    display: inline; 
+    text-decoration: none;
+    color: #283747;
+  }
+
